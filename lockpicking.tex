@@ -61,9 +61,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+\newcommand{\chapref}[1]{\ref{chap:#1} (page~\pageref{chap:#1})}
+
 \title{[M.I.T.] Guide to Lock Picking}
 \author{Version Française}
-\location{Chaos Computer Club - Camp 2011}
+\location{Chaos Communication Camp 2011}
 \date{\today}
 
 \maketitle
@@ -77,15 +79,11 @@
 
 \noindent L'autorisation de reproduire ce document est libre de tout droit tant que les reproductions par quelque moyen que ce soit sont distribuées gratuitement et qu'elles comportent, de plus, la mention complète des copyrights. \\
 
-\noindent Le contenu de ce manuel est diffusé uniquement à titre documentaire.\\
-
-\noindent En aucun cas, nous ne pourrions être tenu pour responsable de l'emploi illégal de ces méthodes d'ouverture. \\
-
 {\centering \section*{AVERTISSEMENT}}
 
 \noindent Le contenu de ce manuel est diffusé uniquement à titre documentaire. \\
 
-\noindent En aucun cas, les traducteurs ne pourraient être tenus pour responsable de l'emploi illégal des méthodes d'ouverture décrites dans ce manuel.\\
+\noindent En aucun cas, l'auteur et/ou les traducteurs ne pourraient être tenus pour responsable de l'emploi illégal des méthodes d'ouverture décrites dans ce manuel.\\
 
 \noindent La traduction française et les annotations techniques sont d'Ephr@ck et Sésame. \\
 
@@ -112,27 +110,28 @@
 \tableofcontents
 \newpage
 
-\chapter{C'est facile}
+%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 1
+\chapter{\label{chap:cest_facile}C'est facile}
 
-Le secret du crochetage des serrures est que c'est facile. N'importe qui peut apprendre comment crocheter.
+Le secret du crochetage de serrure tient en deux mots~: \emph{c'est facile}. N'importe qui peut apprendre comment crocheter une serrure.
 
 \medskip
-La théorie du crochetage est l'art d'exploiter les défauts mécaniques des serrures. Il y a un certain nombre de concepts élémentaires et quelques définitions à savoir mais l'essentiel consiste en des astuces qui exploitent les défauts mécaniques particuliers ou les caractéristiques propres de la serrure à ouvrir. Ce manuel en reflète l'idée. Les premiers chapitres présentent le vocabulaire et les informations de base concernant certaines serrures et leur crochetage. Il est impossible d'apprendre le crochetage sans pratiquer. Un chapitre sera donc consacré à un ensemble d'exercices choisis avec soin pour vous aider à acquérir les tours de main et l'habileté nécessaire au tâtage et au crochetage. Ce manuel se termine par une liste de défauts mécaniques et des caractéristiques de certaines serrures ainsi que les techniques à employer pour reconnaître les dits défauts aux fins d'ouverture. Le premier appendice décrit comment fabriquer soi-même ses outils de crochetage. Le second appendice quant à lui présente l'aspect légal en France.
+La théorie du crochetage est l'art d'exploiter les défauts mécaniques des serrures. Il y a un certain nombre de concepts élémentaires et quelques définitions à connaître, mais l'essentiel est constitué d'astuces qui exploitent les défauts mécaniques particuliers ou les caractéristiques propres de la serrure à ouvrir. Ce manuel est construit sur cette idée. Les premiers chapitres présentent le vocabulaire et les informations de base concernant certains types de serrure et leur crochetage. Il est cependant impossible d'apprendre le crochetage sans pratiquer~: un chapitre est donc consacré à un ensemble d'exercices, choisis avec soin, pour vous aider à acquérir les tours de main et l'habileté nécessaire au tâtage et au crochetage. La fin du manuel est constituée d'une liste de défauts mécaniques et des caractéristiques de certaines serrures, ainsi que les techniques à employer pour reconnaître les dits défauts à fin d'ouverture. Enfin, le premier appendice décrit comment fabriquer soi-même ses outils de crochetage. Le second appendice présente quant à lui l'aspect légal du crochetage en France.
 
-Les exercices sont importants. Seule la pratique permet d'apprendre à reconnaître et à exploiter à votre avantage les défauts mécaniques d'une serrure. Cela signifie qu'il faut beaucoup s'exercer, aussi bien sur une même serrure que sur un grand nombre de marques et de modèles différents. Tout le monde peut ainsi apprendre comment ouvrir des serrures de bureau, des cadenas, mais la qualification pour ouvrir rapidement la plupart des serrures exige beaucoup d'entraînement pour obtenir cette compétence.
+Les exercices sont importants. Seule la pratique permet d'apprendre à reconnaître et à exploiter à votre avantage les défauts mécaniques d'une serrure. Cela signifie qu'il faut beaucoup s'exercer, aussi bien sur une même serrure que sur un grand nombre de marques et de modèles différents. Tout le monde peut ainsi apprendre comment ouvrir des serrures de bureau, des cadenas, mais être capable d'ouvrir rapidement la plupart des serrures exige beaucoup d'entraînement.
 
-Avant d'entrer dans les détails des serrures à goupilles et de leurs techniques de crochetage, il faut préciser que ce n'est pas l'unique moyen d'ouverture. Toutefois c'est la solution la plus discrète car elle ne cause aucun dégât. En fait, il est souvent plus facile de neutraliser ou de contourner le mécanisme interne de la sureté ou d'autres parties de la porte (les gonds par exemple) que la serrure. Il est même parfois plus simple de contourner carrément la porte en passant par exemple par un autre endroit. Souvenez-vous : il y a toujours une autre possibilité d'entrer qui est souvent bien meilleure.
+Avant d'entrer dans les détails des serrures à goupilles et de leurs techniques de crochetage, il faut préciser que ce n'est pas l'unique moyen d'ouverture. Toutefois c'est la solution la plus discrète car elle ne cause aucun dégât. En fait, il est souvent plus facile de neutraliser ou de contourner le mécanisme interne de sureté ou d'autres parties de la porte (les gonds par exemple) que la serrure. Il est même parfois plus simple de contourner carrément la porte en passant par exemple par un autre endroit. Souvenez-vous~: il y a toujours une autre possibilité d'entrer qui est souvent bien meilleure.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre
-\chapter{Comment une clef ouvre une serrure ?}
-Ce chapitre présente le fonctionnement de base de la serrure à goupilles et le vocabulaire utilisé dans cette brochure. Les termes utilisés pour décrire les serrures et les parties qui les composent varient d'un fabricant à l'autre et parfois d'une ville à l'autre, donc même si vous connaissez déjà le fonctionnement de base d'une serrure, vous devrez regarder le schéma 2.1 pour apprendre le vocabulaire que nous utiliserons dans ce manuel.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 2
+\chapter{\label{chap:comment_clef_serrure}Comment une clef ouvre-t-elle une serrure ?}
+Ce chapitre présente le fonctionnement de base de la serrure à goupilles et le vocabulaire utilisé dans ce manuel. Les termes utilisés pour décrire les serrures et les parties qui les composent varient d'un fabricant à l'autre et parfois d'une ville à l'autre, donc même si vous connaissez déjà le fonctionnement de base d'une serrure, vous devriez regarder la figure~\ref{fonctionnement_serrure} pour être en phase avec le vocabulaire que nous utiliserons dans ce manuel.
 
 \begin{figure}[h]
-        \includegraphics[width=16cm]{images/image1}
-        \caption{Fonctionnement d'une serrure}
+  \includegraphics[width=16cm]{images/image1}
+  \caption{Fonctionnement d'une serrure.\label{fonctionnement_serrure}}
 \end{figure}
 
-Vous devez savoir, en premier lieu, quels sont les mécanismes physiques et mécaniques qui entrent en jeu quand une serrure est ouverte par une clef. Vous devez aussi comprendre comment une serrure \enquote{répond} au tâtage et au crochetage. Les chapitres 3 et 5 traiterons de ce sujet en s'appuyant sur des exemples.
+Vous devez savoir, en premier lieu, quels sont les mécanismes physiques et mécaniques qui entrent en jeu quand une serrure est ouverte par une clef. Vous devez aussi comprendre comment une serrure \enquote{répond} au tâtage et au crochetage. Les chapitres~\chapref{modele_demonstration} et \chapref{modele_goupilles} traiteront de ce sujet en s'appuyant sur des exemples.
 La clef est insérée dans \enquote{l'entrée} du rotor ou barillet. Les protubérances sur les côtés de l'entrée de la clé sont appelées des \enquote{éves} et qui seront saillantes et/ou rentrantes.
 
 Les \enquote{éves} déterminent le profil de la clef pouvant être insérée dans l'entrée du rotor. Les différents profils de clef sont appelés \enquote{variures}. Le barillet ou rotor est la partie mobile de la serrure qui peut pivoter sur son axe lorsque la clef adéquate y est insérée complètement. La partie fixe de la serrure est appelée le cylindre ou stator. La première goupille touchée par la clef est appelée \enquote{première goupille}. Les goupilles restantes sont numérotées de l'avant vers l'arrière de la serrure selon leur nombre. (1, 2, 3, 4, \ldots)
@@ -141,10 +140,8 @@ La clef adéquate lève les goupilles simultanément jusqu'à ce que l'intervall
 
 
 \begin{figure}[h]
-
-        \includegraphics[width=16cm]{images/image2_goupille}
-        \caption{Fonctionnements des serrures à goupilles}
-
+  \includegraphics[width=16cm]{images/image2_goupille}
+  \caption{Fonctionnement d'une serrure à goupilles.\label{fonctionnement_serrure_goupilles}}
 \end{figure}
 
 
@@ -164,58 +161,70 @@ une serrure à goupilles est aussi appelée parfois serrure ou verrou \enquote{p
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 3
-\chapter{Le modèle de démonstration}
+\chapter{\label{chap:modele_demonstration}Le modèle de démonstration}
 
-Pour devenir un bon ouvreur, vous aurez besoin de comprendre de façon détaillée comment fonctionne une serrure et quels sont les différents mécanismes physiques ou mécaniques qui entrent en jeu lorsqu'elle est tâtée ou crochetée. Ce manuel présente deux modèles différents de serrures pour mieux vous aider à en comprendre le fonctionnement. Ce chapitre présente un modèle qui souligne l'importance de la position de chacune des goupilles. Le chapitre 4 utilise ce même modèle pour expliquer les principes du tâtage. Le chapitre 9 analyse certains défauts mécaniques plus complexes.
-
-
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/image3_serrure.png}
-        \caption{Modèle de serrure}
-\end{center} \end{figure}
+Pour devenir un bon ouvreur, vous aurez besoin de comprendre de façon détaillée comment fonctionne une serrure et quels sont les différents mécanismes physiques ou mécaniques qui entrent en jeu lorsqu'elle est tâtée ou crochetée. Ce manuel présente deux modèles différents de serrures pour mieux vous aider à en comprendre le fonctionnement. Ce chapitre présente un modèle qui souligne l'importance de la position de chacune des goupilles. Le chapitre~\chapref{bases_defauts_mecaniques} utilise ce même modèle pour expliquer les principes du tâtage. Le chapitre~\chapref{faiblesses_serrure} analyse certains défauts mécaniques plus complexes.
 
 
-Le modèle de serrure de démonstration est présenté dans le schéma 3.1. Ce n'est pas la coupe d'une véritable serrure, mais la représentation schématisée d'un mécanisme très simple utilisé dans un but didactique (inspiré d'une serrure d'époque romaine). Le rôle de cette serrure est d'empêcher deux plaques de métal de glisser l'une sur l'autre à moins que la clef adéquate ne soit présente. Cette serrure est constituée de deux plaques superposées et percées de trous de passage qui les traversent Le schéma montre une serrure à deux \enquote{pistons} : deux goupilles sont placées dans chaque trou de passage de façon à ce que l'intervalle (césure) entre elles ne s'aligne pas au passage avec la ligne de césure générale. Le sommet de la goupille active doit être amené sur la ligne de césure générale des plaques pour autoriser l'ouverture. Une protubérance située sur la partie inférieure de la plaque du bas empêche les goupilles de tomber en dehors des plaques, et un ressort placé au-dessus de la plaque supérieure appuie sur la goupille passive (la goupille supérieure, \enquote{passive} ou \enquote{goupille de stator}).
-
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/image3_serrure.png}
-        \caption{La clef lève les goupilles}
-\end{center} \end{figure}
-
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/image5.png}
-        \caption{La clef adéquate permet aux plaques de glisser}
-\end{center} \end{figure}
-
-Si la clef est absente, les plaques ne peuvent glisser l'une sur l'autre parce qu'une partie de la goupille passive passe au travers des deux plaques et les bloque. La clef adéquate soulève les goupilles jusqu'à ce que l'espace (césure) situé entre les deux goupilles (rotor et stator) et la ligne de césure générale (l'espace se trouvant entre les plaques) soit alignée (cf. le schéma 3.3). Ainsi, la clef soulève simultanément les goupilles (active et passive) jusqu'à ce qu'elles atteignent leur ligne de césure propre puis la ligne de césure générale de la serrure. Dans cette configuration les plaques peuvent glisser l'une sur l'autre.
-
-Le schéma 3.3 illustre également l'une des caractéristiques fondamentales des serrures. Il existe toujours un certain jeu entre les différentes pièces constituant une serrure. En effet, toute pièce mécanique glissant l'une sur l'autre doit être séparée par un intervalle, un jeu, même très léger. Le jeu mécanique entre les deux plaques permet à une variété de clefs correctement taillées d'ouvrir la serrure. Remarquons que la goupille de droite dans le schéma 3.3 ne se trouve pas exactement au même niveau que celle de gauche, ce qui n'empêchera pas la serrure de s'ouvrir.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%chapitre 4
-\chapter{Bases du crochetage et défauts mécaniques}
-
-Le modèle de démonstration souligne le défaut de base qui permet le crochetage : le jeu mécanique. Ce défaut permet d'ouvrir une serrure en positionnant les goupilles par tâtage l'une après l'autre, Il n'est alors plus nécessaire qu'une clef soulève tous les goupilles en même temps. Les schémas 4.1 et 4.3 montrent comment les goupilles d'une serrure peuvent être soulevées une par une par tâtage. La première étape de cette procédure consiste à appliquer une force translatoire sur la serrure en poussant longitudinalement sur la plaque du bas. Cette force permet à une ou à plusieurs des goupilles d'être coincées entre les deux plaques en raison des jeux mécaniques. Le défaut le plus classique des serrures est qu'une seule goupille bloque l'ouverture (le glissement) des deux plaques. Dans le schéma 4.1 on peut remarquer que la goupille de gauche bloque les plaques. Pourtant, même si une goupille bloque, elle peut être poussée vers le haut grâce à un outil de crochetage que l'on appelle \enquote{palpeur} (\enquote{pick} ou \enquote{lifter} en anglais) ~---~ voir le schéma 4.2. Quand le sommet de la goupille active atteint la ligne de césure générale, la plaque du bas peut alors glisser légèrement. Si le palpeur est retiré, la goupille sera maintenue par chevauchement ou cisaillement de la plaque du bas, et la goupille active retombera en bas à sa place initiale ~---~ voir le schéma 4.3. Le léger mouvement de la plaque du bas cause alors le blocage d'une nouvelle goupille. La même procédure pourra alors être utilisée pour positionner correctement cette dernière.
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/image3_serrure.png}
+    \caption{Modèle de serrure.\label{modele_serrure}}
+  \end{center}
+\end{figure}
 
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/Image6}
-        \caption{}
-\end{center} \end{figure}
+Le modèle de serrure de démonstration est présenté sur la figure~\ref{modele_serrure}. Ce n'est pas la coupe d'une véritable serrure, mais la représentation schématisée d'un mécanisme très simple utilisé dans un but didactique (inspiré d'une serrure d'époque romaine). Le rôle de cette serrure est d'empêcher deux plaques de métal de glisser l'une sur l'autre à moins que la clef adéquate ne soit présente. Cette serrure est constituée de deux plaques superposées et percées de trous de passage qui les traversent. Le schéma montre une serrure à deux \enquote{pistons} : deux goupilles sont placées dans chaque trou de passage de façon à ce que l'intervalle (césure) entre elles ne s'aligne pas au passage avec la ligne de césure générale. Le sommet de la goupille active doit être amené sur la ligne de césure générale des plaques pour autoriser l'ouverture. Une protubérance située sur la partie inférieure de la plaque du bas empêche les goupilles de tomber en dehors des plaques, et un ressort placé au-dessus de la plaque supérieure appuie sur la goupille passive (la goupille supérieure, \enquote{passive} ou \enquote{goupille de stator}).
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/Image7}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/image3_serrure}
+    \caption{La clef lève les goupilles.\label{clef_leve_goupilles}}
+  \end{center}
+\end{figure}
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[width=16cm]{images/Image8}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/image5}
+    \caption{La clef adéquate permet aux plaques de glisser.\label{clef_plaques}}
+  \end{center}
+\end{figure}
+
+Si la clef est absente, les plaques ne peuvent glisser l'une sur l'autre parce qu'une partie de la goupille passive passe au travers des deux plaques et les bloque. La clef adéquate soulève les goupilles jusqu'à ce que l'espace (césure) situé entre les deux goupilles (rotor et stator) et la ligne de césure générale (l'espace se trouvant entre les plaques) soit alignée (cf. la figure~\ref{clef_plaques}). Ainsi, la clef soulève simultanément les goupilles (active et passive) jusqu'à ce qu'elles atteignent leur ligne de césure propre puis la ligne de césure générale de la serrure. Dans cette configuration, les plaques peuvent glisser l'une sur l'autre.
+
+La figure~\ref{clef_plaques} illustre également l'une des caractéristiques fondamentales des serrures. Il existe toujours un certain jeu entre les différentes pièces constituant une serrure. En effet, toute pièce mécanique glissant l'une sur l'autre doit être séparée par un intervalle, un jeu, même très léger. Le jeu mécanique entre les deux plaques permet à une variété de clefs correctement taillées d'ouvrir la serrure. Remarquons que la goupille de droite dans la figure~\ref{clef_plaques} ne se trouve pas exactement au même niveau que celle de gauche, ce qui n'empêchera pas la serrure de s'ouvrir.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 4
+\chapter{\label{chap:bases_defauts_mecaniques}Bases du crochetage et défauts mécaniques}
+
+Le modèle de démonstration souligne le défaut de base qui permet le crochetage : le jeu mécanique. Ce défaut permet d'ouvrir une serrure en positionnant les goupilles par tâtage l'une après l'autre, Il n'est alors plus nécessaire qu'une clef soulève tous les goupilles en même temps. Les figures~\ref{blocage_goupille} et \ref{goupille_positionnee} montrent comment les goupilles d'une serrure peuvent être soulevées une par une par tâtage. La première étape de cette procédure consiste à appliquer une force translatoire sur la serrure en poussant longitudinalement sur la plaque du bas. Cette force permet à une ou à plusieurs des goupilles d'être coincées entre les deux plaques en raison des jeux mécaniques. Le défaut le plus classique des serrures est qu'une seule goupille bloque l'ouverture (le glissement) des deux plaques. Dans la figure~\ref{blocage_goupille} on peut remarquer que la goupille de gauche bloque les plaques. Pourtant, même si une goupille bloque, elle peut être poussée vers le haut grâce à un outil de crochetage que l'on appelle \enquote{palpeur} (\enquote{pick} ou \enquote{lifter} en anglais) ~---~ voir la figure~\ref{crochet_goupille}. Quand le sommet de la goupille active atteint la ligne de césure générale, la plaque du bas peut alors glisser légèrement. Si le palpeur est retiré, la goupille sera maintenue par chevauchement ou cisaillement de la plaque du bas, et la goupille active retombera en bas à sa place initiale ~---~ voir la figure~\ref{goupille_positionnee}. Le léger mouvement de la plaque du bas cause alors le blocage d'une nouvelle goupille. La même procédure pourra alors être utilisée pour positionner correctement cette dernière.
+
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/Image6}
+    \caption{Blocage d'une goupille.\label{blocage_goupille}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/Image7}
+    \caption{Utilisation du crochet palpeur pour positionner une goupille.\label{crochet_goupille}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=16cm]{images/Image8}
+    \caption{Première goupille positionnée.\label{goupille_positionnee}}
+  \end{center}
+\end{figure}
 
 
 Ainsi, la technique du tâtage goupille par goupille consiste à appliquer une force translatoire (rotative dans le cas d'une serrure à rotor), à trouver la goupille qui coince le plus, et la mettre en place. Quand le sommet de la goupille active atteint la ligne de césure générale et est \enquote{au passage}, la partie en mouvement de la serrure bougera légèrement, et la goupille sera alors \enquote{piégée par cisaillement} entre les plaques au niveau de la ligne de césure générale (\enquote{au passage}). On appelle cela positionner.
 
-Le chapitre 9 traite des différents défauts qui font qu'une seule goupille à la fois bloque le mécanisme.
+Le chapitre~\chapref{faiblesses_serrure} traite des différents défauts qui font qu'une seule goupille à la fois bloque le mécanisme.
 
 \begin{enumerate}
     \item{Appliquer une force rotative.}
@@ -224,51 +233,61 @@ Le chapitre 9 traite des différents défauts qui font qu'une seule goupille à 
     \item{Repasser à la deuxième étape et ainsi de suite. }
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%chapitre 5
-\chapter{Le modèle à goupilles}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 5
+\chapter{\label{chap:modele_goupilles}Le modèle à goupilles}
 
 Le modèle de serrure didactique peut expliquer les effets qui impliquent plus d'une goupille, mais un modèle différent est nécessaire pour expliquer le fonctionnement détaillé d'une seule goupille ~---~ Cf. le schéma 5.1. Le modèle de goupilles \enquote{en colonne} souligne le rapport entre la pression rotative à appliquer et la force à employer pour soulever chaque goupille. Il est essentiel que vous compreniez cette interdépendance.
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[scale=0.6]{images/Image9}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.6]{images/Image9}
+    \caption{Modèle de goupilles en colonne.\label{modele_goupilles_colonne}}
+  \end{center}
+\end{figure}
 
 Pour comprendre la \enquote{sensation} du tâtage vous devez savoir comment le mouvement d'une goupille est affectée par la rotation appliquée par votre outil de tension (que l'on appelle un entraîneur) et par la pression appliquée par votre crochet palpeur. Un bon moyen de représenter cette interaction est un graphique représentant la pression minimum nécessaire pour déplacer une goupille, en fonction de la profondeur qu'elle doit atteindre à partir de sa position initiale. Le reste de ce chapitre extrapolera le graphique des forces à appliquer pour le modèle des goupilles en colonne. Le schéma 5.2 représente la position d'une goupille lorsqu'une force rotative est appliquée sur le rotor. Les forces en présences sont les frottements des côtés de la goupille, la pression du ressort au-dessus du mécanisme, et le contact de la goupille du dessous. La force à appliquer sur le crochet palpeur détermine la pression du contact en dessous.
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[scale=0.6]{images/Image10}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.6]{images/Image10}
+    \caption{Goupille soumise à une force rotative.\label{goupille_force_rotative}}
+  \end{center}
+\end{figure}
 
 La pression du ressort augmente lorsque les goupilles sont poussées dans le cylindre, mais cette augmentation est légère, nous supposerons donc que cette tension est constante. Les goupilles ne se déplaceront pas à moins que vous appliquiez assez de pression pour comprimer le ressort. La friction due à la tension rotative est proportionnelle à la manière dont la goupille est bloquée entre le rotor et le stator qui est, dans ce cas, proportionnel à la rotation. Plus vous imprimez une rotation au barillet, plus dur sera le déplacement des goupilles. Pour déplacer une goupille vous devez donc appliquer une pression supérieure à la somme de la pression du ressort et des forces de frottement.
 
-\begin{figure}[h] \begin{center}
-        \includegraphics[scale=0.7]{images/Image11}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.7]{images/Image11}
+    \caption{Changement de situation~: la goupille atteint la ligne de césure.\label{goupille_ligne_cesure}}
+  \end{center}
+\end{figure}
 
 Quand la goupille atteint la ligne de césure, la situation change soudainement (cf. le schéma 5.3). La force de friction chute et le rotor tourne légèrement (pour être coincé par une autre goupille). Maintenant la seule force en présence est celle du ressort. Après que le sommet de la goupille ait traversé l'intervalle entre le rotor et le stator, une nouvelle force de frottement apparaît entre la goupille et le stator. Cette force peut être assez importante, et nécessite alors une plus grande pression pour déplacer la goupille.
 
 Si les goupilles sont poussées plus loin dans le cylindre, la goupille entre à son tour en friction dans la situation initiale. Voire le schéma 5.4. Ainsi, la tension nécessaire pour déplacer les goupilles de part et d'autre de la ligne de césure est approximativement la même. Accroître la rotation augmente la tension nécessaire. Au niveau de la ligne de césure, la tension augmente énormément et brusquement lorsque la goupille entre en contact avec le stator. Cette analyse est résumée graphiquement dans le schéma 5.5.
 
  % Schéma 5.4
-\begin{figure}[h] \begin{center}
-        \includegraphics[scale=0.6]{images/Image12}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.6]{images/Image12}
+    \caption{Goupille poussée trop loin.\label{goupille_trop_loin}}
+  \end{center}
+\end{figure}
 
 % Schéma 5.5
-\begin{figure}[h] \begin{center}
-        \includegraphics[scale=0.6]{images/Image13}
-        \caption{}
-\end{center} \end{figure}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=0.6]{images/Image13}
+    \caption{Graphique~: tension nécessaire en fonction du déplacement de la goupille.\label{graphique_tension_deplacement}}
+  \end{center}
+\end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%chapitre 6
-\chapter{Bases du \enquote{raclage} ou du \enquote{ratissage}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 6
+\chapter{\label{chap:raclage_ratissage}Bases du \enquote{raclage} ou du \enquote{ratissage}}
 
-À la maison vous pouvez prendre votre temps pour crocheter une serrure, mais sur le terrain, la vitesse est toujours essentielle. Ce chapitre présente une technique de crochetage appelé \enquote{raclage} (\enquote{racking} en anglais) qui permet d'ouvrir rapidement un grand nombre de serrures. La première étape de la technique de base (chapitre 4) est de localiser la goupille qui bloque le plus. Le diagramme des forces en présence (schéma 5.5) développé dans le chapitre 5 suggère une technique rapide pour déterminer quelle goupille positionner en premier. Considérons que toutes les goupilles peuvent être caractérisées par le même diagramme de forces. Cela suppose qu'elles coincent toutes en même temps et qu'elles subissent les même contraintes. Considérons maintenant l'utilisation d'un crochet sur toutes les goupilles avec une pression suffisante pour vaincre la tension du ressort et les frottements mais insuffisante pour vaincre les contraintes dues au contact de la goupille contre le cylindre ou stator.
+À la maison vous pouvez prendre votre temps pour crocheter une serrure, mais sur le terrain, la vitesse est toujours essentielle. Ce chapitre présente une technique de crochetage appelé \enquote{raclage} (\enquote{racking} en anglais) qui permet d'ouvrir rapidement un grand nombre de serrures. La première étape de la technique de base (chapitre~\chapref{bases_defaults_mecaniques}) est de localiser la goupille qui bloque le plus. Le diagramme des forces en présence (schéma 5.5) développé dans le chapitre~\chapref{modele_goupilles} suggère une technique rapide pour déterminer quelle goupille positionner en premier. Considérons que toutes les goupilles peuvent être caractérisées par le même diagramme de forces. Cela suppose qu'elles coincent toutes en même temps et qu'elles subissent les même contraintes. Considérons maintenant l'utilisation d'un crochet sur toutes les goupilles avec une pression suffisante pour vaincre la tension du ressort et les frottements mais insuffisante pour vaincre les contraintes dues au contact de la goupille contre le cylindre ou stator.
 
 Toute pression supérieure à la partie plate du diagramme des forces et inférieure à l'extrémité supérieure fonctionnera. Lorsque le crochet passera sur une goupille, ce dernier se déplacera jusqu'à ce qu'il rencontre le cylindre (ou stator), mais il n'y entrera pas ~---~ Cf. le schéma 5.3. La force de contact exercée sur la ligne de césure résiste à la pression du crochet, ce dernier passe donc sur la goupille sans la faire pénétrer dans le cylindre. Si la tension rotative adéquate est appliquée, le rotor ou barillet tournera légèrement. Lorsque le crochet ou pick abandonnera la goupille, cette dernière retombera à sa place initiale, mais la goupille passive sera coincée sur le bord du rotor (ou barillet) et restera au-dessus de la ligne de césure ~---~ Cf. le schéma 6.1.
 En théorie un seul passage sur les goupilles pourrait entraîner l'ouverture de la serrure.
@@ -279,7 +298,7 @@ En théorie un seul passage sur les goupilles pourrait entraîner l'ouverture de
         \caption{}
 \end{center} \end{figure}
 
-En pratique une ou deux goupilles se positionneront lors d'un seul passage du crochet, donc plusieurs passages seront nécessaires. En résumé, vous devez déplacer rapidement le crochet \enquote{racleur} d'avant en arrière sur les goupilles tout en ajustant la force rotative sur le rotor ou barillet. Les exercices du chapitre 8 vous apprendront comment déterminer la rotation et la pression adéquate. Vous trouverez que les goupilles d'une serrure ont tendance à se positionner dans un ordre particulier. Beaucoup de facteurs déterminent cet ordre (voire le chapitre 9), mais la cause fondamentale est un non-alignement de l'axe du barillet avec l'axe sur lequel les trous de passage des goupilles ont étés forés ~---~ Cf. le schéma 6.2. Si l'axe des trous des goupilles est à l'oblique par rapport à l'axe central du rotor, les goupilles se positionneront de l'avant vers l'arrière si le rotor pivote dans un sens, et de l'arrière vers l'avant si ce rotor pivote dans l'autre sens. Beaucoup de serrures ont ce défaut.
+En pratique une ou deux goupilles se positionneront lors d'un seul passage du crochet, donc plusieurs passages seront nécessaires. En résumé, vous devez déplacer rapidement le crochet \enquote{racleur} d'avant en arrière sur les goupilles tout en ajustant la force rotative sur le rotor ou barillet. Les exercices du chapitre~\chapref{exercices} vous apprendront comment déterminer la rotation et la pression adéquate. Vous trouverez que les goupilles d'une serrure ont tendance à se positionner dans un ordre particulier. Beaucoup de facteurs déterminent cet ordre (voir le chapitre~\chapref{faiblesses_serrure}), mais la cause fondamentale est un non-alignement de l'axe du barillet avec l'axe sur lequel les trous de passage des goupilles ont étés forés ~---~ Cf. le schéma 6.2. Si l'axe des trous des goupilles est à l'oblique par rapport à l'axe central du rotor, les goupilles se positionneront de l'avant vers l'arrière si le rotor pivote dans un sens, et de l'arrière vers l'avant si ce rotor pivote dans l'autre sens. Beaucoup de serrures ont ce défaut.
 
 % Schéma 6.2
 \begin{figure}[h] \begin{center}
@@ -288,7 +307,7 @@ En pratique une ou deux goupilles se positionneront lors d'un seul passage du cr
 \end{center} \end{figure}
 
 
-\noindent \textbf{Note} : la différence de diamètre entre les trous de passage et les goupilles donnent des défauts d'isométrie, la différence d'alignement des trous des défauts de parallélisme qui se combinent et s'additionnentLe raclage est plus rapide parce que vous n'avez pas besoin de positionner les goupilles individuellement. Il vous suffit seulement de trouver le sens de rotation du stator et la pression rotative adéquate à exercer. Le schéma 6.1 résume les étapes du crochetage par raclage. Les exercices vous apprendront comment reconnaître quand une goupille est positionnée et comment appliquer une tension rotative suffisante. Si une serrure ne s'ouvre pas rapidement par \enquote{raclage} c'est qu'elle possède probablement une des caractéristiques décrites dans le chapitre 9 et vous devrez positionner chaque goupille individuellement à l'aide du palpeur.
+\noindent \textbf{Note} : la différence de diamètre entre les trous de passage et les goupilles donnent des défauts d'isométrie, la différence d'alignement des trous des défauts de parallélisme qui se combinent et s'additionnentLe raclage est plus rapide parce que vous n'avez pas besoin de positionner les goupilles individuellement. Il vous suffit seulement de trouver le sens de rotation du stator et la pression rotative adéquate à exercer. Le schéma 6.1 résume les étapes du crochetage par raclage. Les exercices vous apprendront comment reconnaître quand une goupille est positionnée et comment appliquer une tension rotative suffisante. Si une serrure ne s'ouvre pas rapidement par \enquote{raclage} c'est qu'elle possède probablement une des caractéristiques décrites dans le chapitre~\chapref{faiblesses_serrure} et vous devrez positionner chaque goupille individuellement à l'aide du palpeur.
 
 \begin{enumerate}
     \item{Insérer le crochet. Sans appliquer de rotation, retirez le crochet afin de déterminer la pression des ressorts de la serrure.}
@@ -298,8 +317,8 @@ En pratique une ou deux goupilles se positionneront lors d'un seul passage du cr
     \item{Une fois que la majorité des goupilles ont été  positionnées, augmenter la rotation et \enquote{racler} les  \enquote{goupilles} avec une pression légèrement plus grande. Cela  placera toutes les goupilles maintenues en position basse (à cause des bords biseautés du rotor).}
 \end{enumerate}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapter 7
-\chapter{Techniques avancées de crochetage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% chapitre 7
+\chapter{\label{chap:techniques_avancees}Techniques avancées de crochetage}
 
 Les techniques simples de crochetage/tatâge constituent un art que tout le monde peut apprendre. Cependant, les techniques avancées nécessitent une habileté, une sensibilité mécanique, une grande dextérité, une concentration visuelle, et enfin une pensée analytique. Si vous vous entraînez fréquemment au crochetage, vous ferez rapidement des progrès et pourrez ainsi passer à cette nouvelle étape.
 
@@ -316,7 +335,7 @@ Tous vos sens fournissent des informations sur la serrure. Le toucher et le son 
 
 \section{Pensée Analytique}
 
-Chaque serrure a ses propres caractéristiques qui les rendent plus ou moins facile à crocheter. Si vous apprenez à reconnaître et à exploiter les \enquote{traits particuliers} de chaque serrure, le crochetage en sera plus rapide. Il s'agit en fait, d'analyser la réaction que vous obtenez de la serrure que vous crochetez, de diagnostiquer son \enquote{caractère} et d'utiliser alors votre expérience pour déterminer l'approche la mieux adaptée pour parvenir à vos fins. Le chapitre 9 traite d'un grand nombre de \enquote{caractéristiques  classiques} à exploiter en votre faveur.
+Chaque serrure a ses propres caractéristiques qui les rendent plus ou moins facile à crocheter. Si vous apprenez à reconnaître et à exploiter les \enquote{traits particuliers} de chaque serrure, le crochetage en sera plus rapide. Il s'agit en fait, d'analyser la réaction que vous obtenez de la serrure que vous crochetez, de diagnostiquer son \enquote{caractère} et d'utiliser alors votre expérience pour déterminer l'approche la mieux adaptée pour parvenir à vos fins. Le chapitre~\chapref{faiblesses_serrure} traite d'un grand nombre de \enquote{caractéristiques  classiques} à exploiter en votre faveur.
 
 Beaucoup de gens sous-estiment bien souvent les facultés analytiques à mettre en œuvre pour le crochetage d'une serrure. Ils pensent que seul le crochet ouvre la serrure. Pour eux l'entraîneur n'est qu'un outil passif qui fait seulement pivoter le rotor. Permettez-moi de proposer une autre approche de la situation. Le crochet palpeur pousse seulement sur les goupilles pour obtenir des informations sur la serrure. Basé sur l'analyse de ces informations la tension de l'entraîneur est ajusté pour maintenir les goupilles en position alignée. Et c'est l'entraîneur qui ouvre la serrure.
 
@@ -324,9 +343,9 @@ Varier la tension de rotation quand le crochet va et vient dans la serrure est u
 
 L'habileté à doser la force de rotation quand le crochet se déplace, exige une prudente coordination des deux mains, mais plus vous \enquote{visualiserez} le processus de \enquote{tâtage} d'une serrure, plus vous maîtriserez cette technique importante.
 
-%%%%%%%%%%%%%%%%%%%%%%% chapter 8
+%%%%%%%%%%%%%%%%%%%%%%% chapitre 8
 
-\chapter{Exercices}
+\chapter{\label{chap:exercices}Exercices}
 Ce chapitre présente une série d'exercices qui vous aideront à acquérir l'habileté nécessaire au crochetage. Quelques exercices sont destinés à l'apprentissage de techniques particulières, alors que d'autres vous familiariseront à la coordination des mouvements. Quand vous faites ces exercices, concentrez-vous sur la finesse et la précision de vos gestes, et non sur l'ouverture de la serrure. Si vous vous concentrez sur l'ouverture de la serrure, vous risquez d'être frustré et vous arrêterez de progresser. L'objectif de chaque exercice est d'apprendre quelque chose de spécifique sur la serrure que vous manipulez et d'en savoir plus sur vous-même. Si une serrure finit par s'ouvrir, essayez de vous remémorer ce que vous faisiez et ce que vous avez senti juste avant qu'elle ne s'ouvre.
 Ces exercices doivent être pratiqués par courtes sessions. Après environ trente minutes de pratique vous trouverez que vos doigts deviennent douloureux et que votre esprit perd sa capacité de concentration.
 \section{Exercice 1 : Faire \enquote{rebondir} le crochet}
@@ -340,12 +359,12 @@ Avec le côté plat de votre crochet, poussez sur la première goupille de la se
 Voyez maintenant quelle est la sensation lorsque vous poussez sur les autres goupilles en retirant le crochet de la serrure. Recommencez maintenant en plaçant le crochet et l'entraîneur dans la serrure, mais n'appliquez pas de rotation sur le rotor. En retirant le crochet de la serrure, appliquez assez de pression pour pousser chaque goupille se trouvant sur sa trajectoire. Les goupilles doivent réagir aux sollicitations du crochet. Notez la sensation et le bruit que font les goupilles au passage du crochet. Notez la sensation d'élasticité lorsque le crochet pousse chaque nouvelle goupille.
 Pour vous aider à vous concentrer sur ces sensations, essayez de compter le nombre de goupilles dans la serrure. Certaines serrures de porte comportent sept goupilles voire plus, mais les cadenas n'en ont habituellement que quatre. Pour se faire une idée de la pression maximum pouvant être appliquée, utilisez le côté plat de votre crochet pour comprimer au maximum les goupilles dans la serrure. Quelquefois vous aurez besoin d'appliquer cette pression sur une seule goupille. Si vous rencontrez un nouveau modèle de serrure, exécutez cette procédure pour déterminer la raideur de pression de ses ressorts.
 \section{Exercice 3 : La rotation à appliquer}
-Cet exercice vous apprendra à déterminer la force de rotation adéquate à appliquer sur le rotor. Il fait également la démonstration de l'interaction entre la rotation et la pression décrite au chapitre 5. La force rotative minimum que vous utiliserez doit être juste suffisante pour vaincre la friction causée par la rotation du rotor ou barillet dans le stator ou cylindre. Utilisez votre entraîneur pour tourner le rotor jusqu'à ce qu'il vienne en butée. Notez de combien de mm peut pivoter le rotor jusqu'à ce que les goupilles le bloquent. La force nécessaire peut être élevée si la serrure est grippée (si elle a été laissée sous la pluie par exemple). La rotation minimum pour les cadenas inclut la tension d'un ressort placé entre le rotor et le maillon de liaison interne.
+Cet exercice vous apprendra à déterminer la force de rotation adéquate à appliquer sur le rotor. Il fait également la démonstration de l'interaction entre la rotation et la pression décrite au chapitre~\chapref{modele_goupilles}. La force rotative minimum que vous utiliserez doit être juste suffisante pour vaincre la friction causée par la rotation du rotor ou barillet dans le stator ou cylindre. Utilisez votre entraîneur pour tourner le rotor jusqu'à ce qu'il vienne en butée. Notez de combien de mm peut pivoter le rotor jusqu'à ce que les goupilles le bloquent. La force nécessaire peut être élevée si la serrure est grippée (si elle a été laissée sous la pluie par exemple). La rotation minimum pour les cadenas inclut la tension d'un ressort placé entre le rotor et le maillon de liaison interne.
 Pour déterminer la force rotative maximum pouvant être appliquée, utilisez le côté plat du crochet pour enfoncer toutes les goupilles, et essayez d'appliquer une rotation suffisante pour permettre aux goupilles de rester en bas après que le crochet ait été enlevé. Si votre entraîneur s'est tordu, vous ne pourrez maintenir en position que quelques goupilles.
 Si vous exercez une rotation trop grande et trop de pression sur les goupilles lors du crochetage vous obtiendrez une situation identique à la précédente. La goupille se trouve poussée trop loin dans le stator et la force rotative est suffisante pour la maintenir en place et la bloquer. La force rotative adéquate peut être déterminée en l'accroissant graduellement tout en pratiquant le \enquote{raclage}, avec le crochet, sur les goupilles. Quelques goupilles deviendront alors plus dures à pousser. Graduellement augmenter la force rotative sur le rotor jusqu'à ce que quelques goupilles se positionnent. Ces goupilles perdront alors leur élasticité. Tout en gardant la même force de rotation, utilisez pendant un moment le crochet pour actionner les goupilles en les \enquote{raclant} à nouveau pour voir si d'autres se mettent en place.
 L'erreur la plus fréquente des débutants est d'exercer une pression rotative trop importante avec l'entraîneur. Utilisez cet exercice pour trouver la force de rotation minimum nécessaire au crochetage d'une serrure.
 \section{Exercice 4 : Identifier les goupilles positionnées}
-Lorsque vous crochetez une serrure, essayez d'identifier les goupilles positionnées. Vous pouvez déterminer qu'une goupille est en place lorsque la pression de son ressort est plus légère. C'est à dire que la goupille peut être compressée sur une très courte distance avec une légère pression mais elle devient dure à déplacer au-delà (voire le chapitre 6 pour plus d'explications). Quand vous relâchez la pression la goupille revient en place légèrement. De plus les goupilles positionnées cliquettent si vous les effleurez avec le crochet. Essayez d'écouter ce bruit particulier.
+Lorsque vous crochetez une serrure, essayez d'identifier les goupilles positionnées. Vous pouvez déterminer qu'une goupille est en place lorsque la pression de son ressort est plus légère. C'est à dire que la goupille peut être compressée sur une très courte distance avec une légère pression mais elle devient dure à déplacer au-delà (voir le chapitre~\chapref{raclage_ratissage} pour plus d'explications). Quand vous relâchez la pression la goupille revient en place légèrement. De plus les goupilles positionnées cliquettent si vous les effleurez avec le crochet. Essayez d'écouter ce bruit particulier.
 Déplacez le crochet sur les goupilles et essayez de déterminer si ces goupilles positionnées le sont sur l'avant ou dans le fond de la serrure (ou les deux). Essayez d'identifier exactement quelles goupilles sont positionnées. Souvenez-vous que la première goupille est celle du devant (c'est à dire, celle que la clef touche en premier). Le plus important dans la technique de crochetage est la capacité à déterminer correctement les goupilles positionnées. Cet exercice vous permettra d'acquérir cette capacité.
 Essayez de reproduire cet exercice en faisant pivoter le rotor dans l'autre sens. Si les goupilles du devant se positionnent quand le rotor est tourné dans un sens, les goupilles du fond se positionneront quand le rotor sera tourné dans l'autre sens, (Voire le schéma 6.2 pour comprendre ce fonctionnement mécanique).
 Pour vérifier combien de goupilles sont positionnées, il suffit de relâcher la rotation et de compter les déclics produits par les goupilles revenant à leur place initiale. Essayez de remarquer la différence entre le bruit produit par une seule goupille et celui produit par deux goupilles à la fois. Une goupille mal positionnée fera aussi un bruit sec significatif.
@@ -358,8 +377,8 @@ Cet exercice nécessite une serrure que vous pouvez facilement crocheter. Cela v
 En répétant cet exercice, vous apprendrez à effectuer des gestes précis et à interpréter chacune de vos sensations. La répétition de cet exercice vous permettra de visualiser avec plus de précision comment fonctionne une serrure et de reconnaître les étapes majeures du crochetage.
 
 
-%%%%%%%%%%%%%%%%%%%% chapter 9
-\chapter{Reconnaître et exploiter les faiblesses des serrures}
+%%%%%%%%%%%%%%%%%%%% chapitre 9
+\chapter{\label{chap:faiblesses_serrure}Reconnaître et exploiter les faiblesses des serrures}
 
 Chaque serrure a un large éventail de particularités mécaniques et de défauts qui facilitent ou rendent plus difficile leur crochetage. Si une serrure ne réagit pas au \enquote{raclage}, c'est qu'elle possède probablement une des caractéristiques qui seront détaillées dans ce chapitre. Pour ouvrir une serrure, vous devez diagnostiquer ses caractéristiques propres et appliquer la technique adéquate. Les exercices vous aideront à développer la dextérité nécessaire pour reconnaître et exploiter les différentes caractéristiques.
 
@@ -484,7 +503,7 @@ Un \enquote{truc} généralement utilisé par les fabricants de serrures pour re
         \caption{}
 \end{center} \end{figure}
 
-Le but de ces formes est de causer le faux positionnement des goupilles. Ces passives de formes diverses n'empêche pas une technique appelée crochetage par vibrations (voire le paragraphe 9.12), mais elles compliquent légèrement le \enquote{raclage} et le crochetage goupille par goupille (voire le chapitre 4).
+Le but de ces formes est de causer le faux positionnement des goupilles. Ces passives de formes diverses n'empêche pas une technique appelée crochetage par vibrations (voire le paragraphe 9.12), mais elles compliquent légèrement le \enquote{raclage} et le crochetage goupille par goupille (voir le chapitre~\chapref{bases_defauts_mecaniques}).
 Si vous crochetez une serrure et le que rotor s'arrête de tourner après avoir pivoté de quelques degrés et qu'aucune goupille ne peut être manipulée, vous avez une serrure équipée de \enquote{goupilles anti-tâtage}. En pratique, la lèvre de la passive a accroché la ligne de césure. Voire le bas du schéma 9.7. On trouve des goupilles de forme champignon et les formes bobine parfois dans les serrures Russwin, ainsi que dans des serrures à plusieurs \enquote{variations} (tailles de la clef) qui permettent l'utilisation de clefs \enquote{passe-partout}.
 
 Vous pouvez identifier la places des goupilles en champignon en appliquant une légère rotation et en comprimant chaque goupille. Celles dotées de \enquote{champignon} auront tendance à maintenir le rotor en position verrouillé. En poussant le plat du sommet d'une active contre le fond incliné d'une goupille passive en champignon, cela la \enquote{raidit} et empêche ainsi le rotor de tourner. Vous pouvez utiliser ce mouvement pour identifier les colonnes de goupilles équipées de \enquote{champignons}. Poussez ces goupilles jusqu'à ligne de césure, même si vous en délogez, lors de cette manipulation, quelques-unes des autres, elles seront plus faciles à remettre en position que celles munies de \enquote{champignon}. Ainsi toutes les goupilles seront alors correctement positionnées sur la ligne de césure.
@@ -532,7 +551,7 @@ Un entraîneur de type \enquote{pince à épiler} également. (Il applique une f
 
 Le crochetage est un savoir-faire, pas une science. Ce manuel présente les connaissances techniques et les conseils nécessaires pour acquérir ce savoir faire. De plus, il vous fournit des exemples et des exercices qui vous aideront à étudier seul bon nombre de serrures. Pour exceller dans ce domaine, vous devrez toutefois pratiquer régulièrement et développer un style qui vous convienne. Mais souvenez-vous que la meilleure technique qui soit est celle qui fonctionne le mieux pour vous.
 
-\chapter{Compléments d'informations}
+\chapter{\label{chap:complements}Compléments d'informations}
 
 \subsection{Les outils}
 Cet appendice décrit comment concevoir et fabriquer vos outils de crochetage.
