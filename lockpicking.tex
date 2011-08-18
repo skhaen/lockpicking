@@ -4,11 +4,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[autostyle]{csquotes} % http://www.ctan.org/tex-archive/macros/latex/contrib/csquotes // lire le README pour l'installation
 \usepackage{url}                % permet l'utilisation des urls avec \url{}
-\usepackage{fullpage}
-\usepackage[pdfborder=0]{hyperref}
-\usepackage{graphicx}
 \usepackage[french]{varioref}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{color}
 
+\definecolor{colorlink}{rgb}{0.380,0,0}
+\definecolor{colorcite}{rgb}{0,0.447,0}
+\usepackage[pdfborder={0 0 0},
+            colorlinks=true,
+            linkcolor=colorlink,
+            citecolor=colorcite,
+            pdftitle={Guide to Lock Picking (version Française)}]{hyperref}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
