@@ -2,6 +2,7 @@
 
 lockpicking.pdf:
 	pdflatex lockpicking.tex
+	pdflatex lockpicking.tex
 
 lockpicking.zip: lockpicking.pdf
 	# TODO: avoid zipbomb
