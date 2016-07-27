@@ -1,4 +1,4 @@
-French traduction of "The MIT Lockpicking Guide" (1991)
+# French traduction of "The MIT Lockpicking Guide" (1991)
 
 English version : http://lockpickguide.com/support-files/mitguidetolockpick.pdf
 
