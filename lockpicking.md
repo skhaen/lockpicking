@@ -455,3 +455,4 @@ Contrairement à un mythe bien répandu, ce n’est pas un délit de posséder d
 - **Fausses clefs**: Doit être assimilée à une fausse clef, celle dont le voleur fait usage pour ouvrir la serrure même à laquelle elle était destinée, soit qu’il l’ait préalablement dérobée, soit qu’il l’ait trouvée après avoir été perdue.
 
 
+
