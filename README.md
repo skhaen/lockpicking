@@ -8,7 +8,7 @@ You can see it directly on github (see `lockpicking.md`) or on [cyphercat.eu](ht
 
 Need a bit of cleanup and some checks on the pictures
 
-## LaTeX version 
+## LaTeX version (OLD) 
 
 * LaTeX package (overkill):
 
@@ -20,6 +20,6 @@ apt install texlive-full
 
 Use `make` to build the pdf, and `make zip` to zip the pdf and the sources.
 
-#### HTML version
+## HTML version (OLD and dirty)
 
 Old and dirty version, need a big cleanup.
