@@ -15,7 +15,8 @@ La traduction française et les annotations techniques sont d’Ephr@ck et Sésa
 
 ## TRADUCTION
 
-* **version 1.0** - France - Septembre 1999.
+* Original version : [lockpickguide.com/support-files/mitguidetolockpick.pdf](http://lockpickguide.com/support-files/mitguidetolockpick.pdf) (1991)
+* **version 1.0** - Septembre 1999.
  * **Traducteurs** : Efrh@ck et Sésame.
  * **Version 1.0** : Efrh@ck et Sésame
 * **version 1.1 - Août 2011**
