@@ -77,7 +77,6 @@ Le modèle de serrure de démonstration est présenté sur la figure3.1. Ce n’
 
 Fig. 3.2: La clef lève les goupilles.
 
-![img](/content/images/2016/07/image3_serrure.png)
 ![img](/content/images/2016/07/image5.png)
 
 Fig. 3.3: La clef adéquate permet aux plaques de glisser.
