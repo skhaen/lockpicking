@@ -26,7 +26,7 @@ La traduction française et les annotations techniques sont d’Ephr@ck et Sésa
  * **Markdown** : Skhaen
  * **Relecture** : Skhaen, Grandasse
 
-**Source** (version Markdown + LaTeX + HTML) sur [https://github.com/skhaen/lockpicking](github.com/skhaen/lockpicking)
+**Source** (version Markdown + LaTeX + HTML) sur [github.com/skhaen/lockpicking](https://github.com/skhaen/lockpicking)
 
 ### Chapitre 1 - C’est facile
 
